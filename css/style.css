@@ -7,6 +7,7 @@
       font-family: "OpenSans-Light", Helvetica, Arial, sans-serif;
     }
 
+
     header {
     	background: #2d2f32;
     	position: sticky;
@@ -21,23 +22,28 @@ display: flex;
 justify-content: space-between;
 max-width: 1150px;
 margin: auto;
-padding: 5 30px;
+padding: 5px 30px;
 }
 
-ul {
+.menu {
 font-family: "Roboto", "OpenSans-Light", Helvetica, Arial, sans-serif;
 font-weight: 400;
 display: flex;
-justify-content: flex-end;
+justify-content: center;
 align-items: center;
 flex: 1;
 }
 
+.menu li {
+display: inline-block;
+padding: 15px 30px;
+color: white;
+font-size: 20px;
+}
 li {
 display: inline-block;
 padding: 15px 30px;
 color: white;
-margin: 10px;
 font-size: 20px;
 }
 
@@ -46,14 +52,13 @@ nav img {
 	padding: 15px 0;
 }
 
-nav a {
-	color: #ffffff;
+.menu a {
+color: #ffffff;
 text-decoration: none;
 border-bottom: 1px solid transparent;
 transition: border 250ms ease-in-out;
-display: flex;
 }
-nav a:hover {
+.menu a:hover {
 border-bottom: 1px solid #ffffff;
 }
 
@@ -522,7 +527,7 @@ footer ul{
 .blog-tags {
   background: lightgray;
   justify-content: flex-start;
-  padding: 1px;
+  padding: 6px;
   border-radius: 5px;
   margin-top: 25px;
 }
