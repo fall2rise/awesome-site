@@ -359,10 +359,13 @@ footer ul{
 		top: 57px;
 		transition: all 250ms ease-in-out;
 		flex-direction: column;
+    visibility: hidden;
 	}
 
 	.responsive ul{
-		height: 320px;
+		height: 435px;
+    visibility: visible;
+    margin-top: 15px;
 	}
 
 	.responsive li{
@@ -585,7 +588,6 @@ width: 100%;
 
 .contact-container{
 	margin-top: 50px;
-	width: 700px;
 	margin: 50px auto;
 }
 
@@ -621,4 +623,10 @@ width: 100%;
 	justify-content: center;
 	flex: 1;
 	display: flex;
+}
+
+@media screen and (max-width: 768px){
+.w-100{
+  height: 125px;
+}
 }
