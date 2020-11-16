@@ -625,6 +625,13 @@ width: 100%;
 	display: flex;
 }
 
+#sudaner{
+  justify-content: center;
+    align-content: center;
+    display: flex;
+    margin: 120px;
+}
+
 @media screen and (max-width: 768px){
 .ymaps-2-1-77-map{
   height: 75%!important;
