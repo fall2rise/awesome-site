@@ -525,13 +525,15 @@ footer ul{
 .blog-tags {
   background: lightgray;
   justify-content: flex-start;
-  padding: 6px;
+  padding: 7px;
   border-radius: 5px;
   margin-top: 25px;
+  display: flex;
 }
 
 .blog-tags li{
   padding: 0 5px 0 0;
+  display: inline-block;
 }
 
 .blog-tags a{
